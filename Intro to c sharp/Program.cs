@@ -84,14 +84,14 @@ internal class Program
         */
 
         /*Uppgift 8B
-        Solution solution = new();
+        Solution solution = new Solution();
         solution.Uppgift_8B();
         */
 
         //Uppgift 9
         Solution solution = new();
         solution.Uppgift_9();
-
+        
         //Uppgifter lektion _ (Fler introduktionsuppgifter - 4016) Rikardkarlsson.se
 
       
