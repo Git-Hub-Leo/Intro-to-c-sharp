@@ -16,14 +16,14 @@ namespace Intro_to_c_sharp
         //1. Utskrift och inmatning samt variabler 4015 
         public void Uppgift_1A()
         {
-            /*
+            
             string namn = "Ada";
             Console.WriteLine("Hej " + namn + ". Varmt välkommen!");
-            */
+            
         }
 
         public void Uppgift_1B()
-        {   /*
+        {   
             double höjd = 5.4;
             double bredd = 9.6;
             double area = bredd * höjd;
@@ -31,12 +31,12 @@ namespace Intro_to_c_sharp
             Console.WriteLine("Höjd: " + höjd);
             Console.WriteLine("Bredd: " + bredd);
             Console.WriteLine("Area: " + area);
-            */
+            
         }
 
         public void Uppgift_1C()
         {
-            /*//Fråga om tal
+            //Fråga om tal
             Console.WriteLine("skriv in bredd: ");
             // läs in tal som text
             String text1 = Console.ReadLine();
@@ -52,12 +52,12 @@ namespace Intro_to_c_sharp
             Console.WriteLine("Bredd: " + bredd);
             Console.WriteLine("Area: " + bredd * höjd / 2);
             Console.WriteLine();
-            */
+            
         }
 
         public void Uppgift_1D()
         {
-            /*
+            
             Console.WriteLine("Ange ett heltal: ");
             // läs in tal som text
             String tex1 = Console.ReadLine();
@@ -70,13 +70,13 @@ namespace Intro_to_c_sharp
             int tal2 = Convert.ToInt32(tex2);
             int sum = tal1 + tal2;
             Console.WriteLine("Summan av talen: " + sum);
-            */
+            
         }
 
         //2. if-sats 4015 
         public void Uppgift_2A()
         {
-            /*Console.WriteLine("Gissa mitt favorittal");
+            Console.WriteLine("Gissa mitt favorittal");
             var text = Console.ReadLine();
                double tal = Convert.ToDouble(text);    
                if (tal == 5)
@@ -87,13 +87,13 @@ namespace Intro_to_c_sharp
                { 
                    Console.Write("Du gissade fel!");
                }
-            */
+            
         }
 
         public void Uppgift_2B()
         {
 
-            /*
+            
             //Importerar tal
             Random randomgenerator1 = new Random();
             //Bestämmer vilka tal som kan importeras
@@ -122,7 +122,7 @@ namespace Intro_to_c_sharp
             {
                 Console.WriteLine("Okay... Adios then!");
             }
-            */
+            
 
         }
 
