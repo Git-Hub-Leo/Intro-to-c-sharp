@@ -39,12 +39,12 @@ namespace Intro_to_c_sharp
             //Fråga om tal
             Console.WriteLine("skriv in bredd: ");
             // läs in tal som text
-            String text1 = Console.ReadLine();
+            var text1 = Console.ReadLine();
             // omvandla text till decimaltal
             double bredd = Convert.ToDouble(text1);
             Console.WriteLine("skriv in Höjd: ");
             // läs in tal som text
-            String text2 = Console.ReadLine();
+            var text2 = Console.ReadLine();
             // omvandla text till decimaltal
             double höjd = Convert.ToDouble(text2);
             Console.WriteLine("Triangel");
@@ -60,12 +60,12 @@ namespace Intro_to_c_sharp
             
             Console.WriteLine("Ange ett heltal: ");
             // läs in tal som text
-            String tex1 = Console.ReadLine();
+            var tex1 = Console.ReadLine();
             // omvandla text till heltal
             int tal1 = Convert.ToInt32(tex1);
             Console.WriteLine("Ange ett heltal till: ");
             // läs in tal som text
-            String tex2 = Console.ReadLine();
+            var tex2 = Console.ReadLine();
             // omvandla text till heltal
             int tal2 = Convert.ToInt32(tex2);
             int sum = tal1 + tal2;
@@ -291,13 +291,13 @@ namespace Intro_to_c_sharp
         {
             
             Console.WriteLine("Ange ett heltal: ");
-            string text1 = Console.ReadLine();
+            var text1 = Console.ReadLine();
             int tal1 = Convert.ToInt32(text1);
             Console.WriteLine("Ange ett heltal till: ");
-            string text2 = Console.ReadLine();
+            var text2 = Console.ReadLine();
             int tal2 = Convert.ToInt32(text2);
             Console.WriteLine("Ange ett heltal till: ");
-            string text3 = Console.ReadLine();
+            var text3 = Console.ReadLine();
             int tal3 = Convert.ToInt32(text3);
             int summa = tal1 + tal2 + tal3;
             Console.WriteLine("Summan av talen: " + summa);
@@ -306,7 +306,7 @@ namespace Intro_to_c_sharp
         //10. Blandade övningar 
         public void Uppgift_10A() 
         {
-        
+            
         }
 
 
