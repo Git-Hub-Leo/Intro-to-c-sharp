@@ -265,10 +265,54 @@ namespace Intro_to_c_sharp
             }
         }
 
-        public void Uppgift_9() 
+        //9. Metoddefinition och anrop
+        public void Uppgift_9A()
+        {
+
+            AgentXHello();
+
+        }
+        public void AgentXHello()
+        {
+            //Definerar metod som STRING
+            string AgentCall = ("Välkommen Agent X. Ditt uppdrag är...");
+            //Skriver ut metoden
+            Console.WriteLine(AgentCall);
+        }
+
+
+        public void Uppgift_9B() 
+        {
+ 
+            Addera();
+
+        }
+        public void Addera()
         {
             
+            Console.WriteLine("Ange ett heltal: ");
+            string text1 = Console.ReadLine();
+            int tal1 = Convert.ToInt32(text1);
+            Console.WriteLine("Ange ett heltal till: ");
+            string text2 = Console.ReadLine();
+            int tal2 = Convert.ToInt32(text2);
+            Console.WriteLine("Ange ett heltal till: ");
+            string text3 = Console.ReadLine();
+            int tal3 = Convert.ToInt32(text3);
+            int summa = tal1 + tal2 + tal3;
+            Console.WriteLine("Summan av talen: " + summa);
         }
+
+        //10. Blandade övningar 
+        public void Uppgift_10A() 
+        {
+        
+        }
+
+
     }
-}
+
+}    
+    
+
 

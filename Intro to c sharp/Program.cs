@@ -88,10 +88,21 @@ internal class Program
         solution.Uppgift_8B();
         */
 
-        //Uppgift 9
+        /*Uppgift 9A
         Solution solution = new();
-        solution.Uppgift_9();
-        
+        solution.Uppgift_9A();
+        */
+
+        /*Uppgift 9B
+        Solution solution = new Solution();
+        solution.Uppgift_9B ();
+        */
+
+        //Uppgift 10A
+        Solution solution = new Solution();
+        solution.Uppgift_10A();
+
+
         //Uppgifter lektion _ (Fler introduktionsuppgifter - 4016) Rikardkarlsson.se
 
       
