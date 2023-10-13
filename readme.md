@@ -14,7 +14,7 @@ uppgift 1-7 klart
 23 10 13 
 -----------
 
-Uppgift 9 klar 
+Uppgift 9 klar 10 påbörjad
 
 Tidigare 
 ------------
