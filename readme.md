@@ -37,6 +37,7 @@ Jag har klarat alla framgångkriterier.
 Jag har använt mig av Stackoverflow , klasskamrater och lärare när jag behövt hjälp. (Har dock missat att lägga in länkar pga missad lektion där vi fick info om hur loggbok fungerade)
 
 FRAMGÅNGSKRITERIER
+
 Jag kan skriva ut en text till konsollen - Avklarat  
 
 Jag vet vad en variabel är och vad den används till - Avklarat
