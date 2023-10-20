@@ -283,13 +283,7 @@ namespace Intro_to_c_sharp
 
         public void Uppgift_9B() 
         {
- 
-            Addera();
 
-        }
-        public void Addera()
-        {
-            
             Console.WriteLine("Ange ett heltal: ");
             var text1 = Console.ReadLine();
             int tal1 = Convert.ToInt32(text1);
@@ -299,14 +293,38 @@ namespace Intro_to_c_sharp
             Console.WriteLine("Ange ett heltal till: ");
             var text3 = Console.ReadLine();
             int tal3 = Convert.ToInt32(text3);
-            int summa = tal1 + tal2 + tal3;
+            int summa = Addera(tal1,  tal2, tal3);
             Console.WriteLine("Summan av talen: " + summa);
+
+        }
+        public int Addera(int a, int b, int c)
+        {
+            return a + b + c;
+            
         }
 
         //10. Blandade övningar 
-        public void Uppgift_10A() 
+        public void Uppgift_10() 
         {
+            List <string> inköpslista = new List <string>();
+
+            string text = "j";
+
+            while (text == "j")
+            {
+                Console.WriteLine("Skriv in en vara i inköpslistan: ");
+                string vara = Console.ReadLine();
+
+                inköpslista.Add(vara);
+                Console.WriteLine("Vill du skriva in fler varor(j/n)? ");
+                text = Console.ReadLine();
+            }
+            foreach (string vara in inköpslista) 
+            {
+                Console.WriteLine(vara + ", ");
+            }
             
+           
         }
 
 

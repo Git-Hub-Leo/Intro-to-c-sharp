@@ -98,10 +98,10 @@ internal class Program
         solution.Uppgift_9B ();
         */
 
-        //Uppgift 10A
+        /*Uppgift 10
         Solution solution = new Solution();
-        solution.Uppgift_10A();
-
+        solution.Uppgift_10();
+        */
 
         //Uppgifter lektion _ (Fler introduktionsuppgifter - 4016) Rikardkarlsson.se
 
